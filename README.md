@@ -175,6 +175,6 @@ Prueba del modal con temporizador:
 
 En el siguiente video se muestra el funcionamiento del componente, su integración y las diferentes formas de uso.
 
-▶️ [**Ver video demostrativo en YouTube**]()
+▶️ [**Ver video demostrativo en YouTube**](https://youtu.be/DqpCjqHPuEQ)
 
-[![Video demostrativo]()]()
+[![Video demostrativo](https://img.youtube.com/vi/DqpCjqHPuEQ/maxresdefault.jpg)](https://youtu.be/DqpCjqHPuEQ)
