@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/componente.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Componente Modal</title>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Componente Modal</h1>
+
+      <p>Selecciona un botón para mostrar los diferentes tipos de modal.</p>
+
+      <div class="botones">
+        <button
+          onclick="
+            mostrarModal('Operación exitosa', 'Los datos se guardaron correctamente', 'exito', 'Aceptar', 'claro')
+          "
+        >
+          Modal de éxito
+        </button>
+
+        <button
+          onclick="mostrarModal('Error', 'Ocurrió un error al realizar la operación', 'error', 'Cerrar', 'claro')"
+        >
+          Modal de error
+        </button>
+
+        <button
+          onclick="
+            mostrarModal('Advertencia', 'Revisa la información antes de continuar', 'advertencia', 'Entendido', 'claro')
+          "
+        >
+          Modal de advertencia
+        </button>
+
+        <button
+          onclick="mostrarModal('Información', 'Este es un mensaje informativo', 'informacion', 'Aceptar', 'claro')"
+        >
+          Modal de información
+        </button>
+
+        <button
+          onclick="mostrarModal('Modo oscuro', 'Este modal utiliza el tema oscuro', 'informacion', 'Cerrar', 'oscuro')"
+        >
+          Modal oscuro
+        </button>
+
+        <button
+          onclick="
+            mostrarModal('Guardado', 'Este modal se cerrará automáticamente', 'exito', '', 'claro', 3000, false, false)
+          "
+        >
+          Modal con temporizador
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="js/componente.js"></script>
+</html>
